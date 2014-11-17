@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40C643B01A173E2C00CB62D5 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C643AF1A173E2C00CB62D5 /* Calculator.swift */; };
+		40FCCB611A150F5C007F3EAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCCB601A150F5C007F3EAD /* AppDelegate.swift */; };
+		40FCCB631A150F5C007F3EAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FCCB621A150F5C007F3EAD /* Images.xcassets */; };
+		40FCCB661A150F5C007F3EAD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40FCCB641A150F5C007F3EAD /* MainMenu.xib */; };
+		40FCCB721A150F5C007F3EAD /* SimpleCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FCCB711A150F5C007F3EAD /* SimpleCalcTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40FCCB6C1A150F5C007F3EAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40FCCB531A150F5C007F3EAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40FCCB5A1A150F5C007F3EAD;
+			remoteInfo = SimpleCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40C643AF1A173E2C00CB62D5 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		40FCCB5B1A150F5C007F3EAD /* SimpleCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FCCB5F1A150F5C007F3EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FCCB601A150F5C007F3EAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40FCCB621A150F5C007F3EAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		40FCCB651A150F5C007F3EAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		40FCCB6B1A150F5C007F3EAD /* SimpleCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FCCB701A150F5C007F3EAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FCCB711A150F5C007F3EAD /* SimpleCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalcTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40FCCB581A150F5C007F3EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FCCB681A150F5C007F3EAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40FCCB521A150F5C007F3EAD = {
+			isa = PBXGroup;
+			children = (
+				40FCCB5D1A150F5C007F3EAD /* SimpleCalc */,
+				40FCCB6E1A150F5C007F3EAD /* SimpleCalcTests */,
+				40FCCB5C1A150F5C007F3EAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40FCCB5C1A150F5C007F3EAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40FCCB5B1A150F5C007F3EAD /* SimpleCalc.app */,
+				40FCCB6B1A150F5C007F3EAD /* SimpleCalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40FCCB5D1A150F5C007F3EAD /* SimpleCalc */ = {
+			isa = PBXGroup;
+			children = (
+				40FCCB601A150F5C007F3EAD /* AppDelegate.swift */,
+				40FCCB621A150F5C007F3EAD /* Images.xcassets */,
+				40FCCB641A150F5C007F3EAD /* MainMenu.xib */,
+				40FCCB5E1A150F5C007F3EAD /* Supporting Files */,
+				40C643AF1A173E2C00CB62D5 /* Calculator.swift */,
+			);
+			path = SimpleCalc;
+			sourceTree = "<group>";
+		};
+		40FCCB5E1A150F5C007F3EAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40FCCB5F1A150F5C007F3EAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40FCCB6E1A150F5C007F3EAD /* SimpleCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				40FCCB711A150F5C007F3EAD /* SimpleCalcTests.swift */,
+				40FCCB6F1A150F5C007F3EAD /* Supporting Files */,
+			);
+			path = SimpleCalcTests;
+			sourceTree = "<group>";
+		};
+		40FCCB6F1A150F5C007F3EAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40FCCB701A150F5C007F3EAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40FCCB5A1A150F5C007F3EAD /* SimpleCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FCCB751A150F5C007F3EAD /* Build configuration list for PBXNativeTarget "SimpleCalc" */;
+			buildPhases = (
+				40FCCB571A150F5C007F3EAD /* Sources */,
+				40FCCB581A150F5C007F3EAD /* Frameworks */,
+				40FCCB591A150F5C007F3EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCalc;
+			productName = SimpleCalc;
+			productReference = 40FCCB5B1A150F5C007F3EAD /* SimpleCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40FCCB6A1A150F5C007F3EAD /* SimpleCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FCCB781A150F5C007F3EAD /* Build configuration list for PBXNativeTarget "SimpleCalcTests" */;
+			buildPhases = (
+				40FCCB671A150F5C007F3EAD /* Sources */,
+				40FCCB681A150F5C007F3EAD /* Frameworks */,
+				40FCCB691A150F5C007F3EAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40FCCB6D1A150F5C007F3EAD /* PBXTargetDependency */,
+			);
+			name = SimpleCalcTests;
+			productName = SimpleCalcTests;
+			productReference = 40FCCB6B1A150F5C007F3EAD /* SimpleCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40FCCB531A150F5C007F3EAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Vitaliy.Ladan;
+				TargetAttributes = {
+					40FCCB5A1A150F5C007F3EAD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					40FCCB6A1A150F5C007F3EAD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 40FCCB5A1A150F5C007F3EAD;
+					};
+				};
+			};
+			buildConfigurationList = 40FCCB561A150F5C007F3EAD /* Build configuration list for PBXProject "SimpleCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40FCCB521A150F5C007F3EAD;
+			productRefGroup = 40FCCB5C1A150F5C007F3EAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40FCCB5A1A150F5C007F3EAD /* SimpleCalc */,
+				40FCCB6A1A150F5C007F3EAD /* SimpleCalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40FCCB591A150F5C007F3EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FCCB631A150F5C007F3EAD /* Images.xcassets in Resources */,
+				40FCCB661A150F5C007F3EAD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FCCB691A150F5C007F3EAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40FCCB571A150F5C007F3EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FCCB611A150F5C007F3EAD /* AppDelegate.swift in Sources */,
+				40C643B01A173E2C00CB62D5 /* Calculator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FCCB671A150F5C007F3EAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FCCB721A150F5C007F3EAD /* SimpleCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40FCCB6D1A150F5C007F3EAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40FCCB5A1A150F5C007F3EAD /* SimpleCalc */;
+			targetProxy = 40FCCB6C1A150F5C007F3EAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40FCCB641A150F5C007F3EAD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FCCB651A150F5C007F3EAD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40FCCB731A150F5C007F3EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40FCCB741A150F5C007F3EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		40FCCB761A150F5C007F3EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40FCCB771A150F5C007F3EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SimpleCalc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40FCCB791A150F5C007F3EAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCalc.app/Contents/MacOS/SimpleCalc";
+			};
+			name = Debug;
+		};
+		40FCCB7A1A150F5C007F3EAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleCalcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCalc.app/Contents/MacOS/SimpleCalc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40FCCB561A150F5C007F3EAD /* Build configuration list for PBXProject "SimpleCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FCCB731A150F5C007F3EAD /* Debug */,
+				40FCCB741A150F5C007F3EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40FCCB751A150F5C007F3EAD /* Build configuration list for PBXNativeTarget "SimpleCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FCCB761A150F5C007F3EAD /* Debug */,
+				40FCCB771A150F5C007F3EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40FCCB781A150F5C007F3EAD /* Build configuration list for PBXNativeTarget "SimpleCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FCCB791A150F5C007F3EAD /* Debug */,
+				40FCCB7A1A150F5C007F3EAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40FCCB531A150F5C007F3EAD /* Project object */;
+}
