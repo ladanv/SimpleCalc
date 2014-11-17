@@ -3,6 +3,11 @@ build/
 *.pbxuser
 *.mode1v3
 
+# ignore .xcodeproj pieces
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
 # osx noise
 .DS_Store
 profile
